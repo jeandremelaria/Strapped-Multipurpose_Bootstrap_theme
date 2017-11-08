@@ -7,7 +7,6 @@ const imagemin = require('gulp-imagemin');
 const browserSync = require('browser-sync');
 const htmlmin = require('gulp-htmlmin');
 
-
 //----- LOG MESSAGE -----//
 gulp.task('message', function(){
 	return console.log('Gulp is running...');
