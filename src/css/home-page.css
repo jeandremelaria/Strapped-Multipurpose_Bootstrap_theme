@@ -40,3 +40,9 @@ Last modified:
   position: relative;
   top: 150px;
 }
+.navbar a {
+  color: #ffffff !important;
+}
+.navbar a:hover {
+  color: #9a2efe !important;
+}
