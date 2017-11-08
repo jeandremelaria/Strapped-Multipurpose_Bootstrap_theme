@@ -1,0 +1,42 @@
+/* Compiled Less CSS File */
+/* Generated from "home-page.css" */
+
+/* 
+Developer name: Jeandre Melaria
+Project title: Summer
+Platform: Bootstrap
+Programming language: HTML5, CSS3, Bootstrap, Less
+IDE tool: Dreamweaver
+Database:  -
+Project type: Email newsletter template.
+File created date: 08.11.2017
+Last modified: 
+ */
+.btn-primary {
+  background: #4b088a;
+  border-color: #4b088a;
+}
+.btn-primary:hover {
+  background: #8000ff;
+  border-color: #8000ff;
+}
+.btn-outline-success {
+  color: #9a2efe;
+  border-color: #9a2efe;
+}
+.btn-outline-success:hover {
+  background-color: #9a2efe;
+  border-color: #9a2efe;
+}
+.jumbotron {
+  background: #333333 url('../img/bg.jpg') -400px -200px;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 5px #f4f4f4 solid;
+  height: 500px;
+}
+.jumbotron-text {
+  display: block;
+  position: relative;
+  top: 150px;
+}

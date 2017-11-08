@@ -1,0 +1,60 @@
+/* 
+Developer name: Jeandre Melaria
+Project title: Summer
+Platform: Bootstrap
+Programming language: HTML5, CSS3, Bootstrap, Less
+IDE tool: Dreamweaver
+Database:  -
+Project type: Email newsletter template.
+File created date: 08.11.2017
+Last modified: 
+ */
+
+// === === Table of contents === === //
+// - Variables
+// - Functions
+// - Mixings
+
+// === === Variables === === //
+@color-1:#4B088A;
+@color-2:#8000FF;
+@color-3:#9A2EFE;
+@color-4:#fff;
+@color-5:#333;
+@color-6:#f4f4f4;
+
+// === === Functions === === //
+
+
+// === === Mixings === === //
+.btn-primary{
+	background:@color-1;
+	border-color:@color-1;
+	&:hover{
+		background:@color-2;
+		border-color:@color-2;
+		
+	}
+}
+.btn-outline-success {
+  color: @color-3;
+  border-color: @color-3;
+  
+  &:hover{
+	  background-color:@color-3;
+	  border-color: @color-3;
+  }
+}
+.jumbotron{
+	background: @color-5 url('../img/bg.jpg') -400px -200px;
+	color:@color-4;
+	text-align:center;
+	border-bottom:5px @color-6 solid;
+	height:500px;
+	
+}
+.jumbotron-text{
+	display:block;
+	position:relative;
+	top: 150px;
+}
