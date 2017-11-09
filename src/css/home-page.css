@@ -25,7 +25,7 @@ Last modified:
   border-color: #9a2efe;
 }
 .btn-outline-success:hover {
-  background-color: #9a2efe;
+  background: #9a2efe;
   border-color: #9a2efe;
 }
 .jumbotron {
@@ -47,8 +47,29 @@ Last modified:
   color: #9a2efe !important;
 }
 .card {
-  background-color: #f3f3f3;
+  background: #f3f3f3;
   border-color: #f3f3f3;
   padding: 0.5rem;
   text-align: center;
+}
+.box {
+  margin-top: 0.5rem;
+  margin-bottom: 2.3rem;
+}
+.section-a {
+  background: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+.section-a h1 {
+  font-size: 4rem;
+}
+.section-b {
+  margin-top: 2.3rem;
+}
+.img-full {
+  width: 100%;
 }

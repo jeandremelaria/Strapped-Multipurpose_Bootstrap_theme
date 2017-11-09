@@ -14,6 +14,7 @@ Last modified:
 // - Variables
 // - Functions
 // - Mixings
+// - Global
 
 // === === Variables === === //
 @color-1:#4B088A;
@@ -23,18 +24,24 @@ Last modified:
 @color-5:#333;
 @color-6:#f4f4f4;
 @color-7:#f3f3f3;
+@color-8:#343a40;
 
-@padding: 0.5rem;
+@padding:0.5rem;
+@margin:0.5rem;
 
 // === === Functions === === //
-
-
+.bgColor(@bgColor: @color-1){
+	background:@bgColor;
+}
+.color(@color:@color-4){
+	color:@color;
+}
 // === === Mixings === === //
 .btn-primary{
-	background:@color-1;
+	.bgColor;
 	border-color:@color-1;
 	&:hover{
-		background:@color-2;
+		.bgColor(@color-2);
 		border-color:@color-2;
 		
 	}
@@ -44,7 +51,7 @@ Last modified:
   border-color: @color-3;
   
   &:hover{
-	  background-color:@color-3;
+	  .bgColor(@color-3);
 	  border-color: @color-3;
   }
 }
@@ -68,8 +75,36 @@ Last modified:
 	}
 }
 .card{
-	background-color: @color-7;
+	.bgColor(@color-7);
 	border-color: @color-7;
 	padding:@padding;
+	text-align:center
+}
+.box{
+	margin-top:@margin;
+	margin-bottom:(@margin + 1.8rem);
+}
+.section-a{
+	.bgColor(@color-8);
+	.color;
 	text-align:center;
+	padding:(@padding + 1.5rem);
+	margin-top:(@margin + 1.8rem);
+	margin-bottom:@margin;
+	
+	h1{
+		font-size:4rem;
+	}
+}
+.section-b{
+	margin-top:(@margin + 1.8rem);
+}
+
+.img-full{
+	width:100%;
+}
+
+// === === Global === === //
+section{
+	
 }
