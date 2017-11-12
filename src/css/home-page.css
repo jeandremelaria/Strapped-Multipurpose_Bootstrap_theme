@@ -50,7 +50,7 @@ Last modified:
   color: #9a2efe !important;
 }
 .card {
-  background: #f3f3f3;
+  background: #f3f3f3 !important;
   border-color: #f3f3f3;
   padding: 0.5rem;
   text-align: center;
@@ -72,6 +72,7 @@ Last modified:
 }
 .section-b {
   margin-top: 2.3rem;
+  margin-bottom: 2.3rem;
 }
 .img-full {
   width: 100%;
