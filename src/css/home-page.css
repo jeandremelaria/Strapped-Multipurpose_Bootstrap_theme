@@ -12,6 +12,9 @@ Project type: Email newsletter template.
 File created date: 08.11.2017
 Last modified: 
  */
+.btn {
+  margin: 0.5rem !important;
+}
 .btn-primary {
   background: #4b088a;
   border-color: #4b088a;
