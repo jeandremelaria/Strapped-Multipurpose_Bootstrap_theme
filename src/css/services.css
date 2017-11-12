@@ -10,7 +10,7 @@ IDE tool: Dreamweaver
 Database:  -
 Project type: Email newsletter template.
 File created date: 08.11.2017
-Last modified: 
+Last modified: 12.11.2017
  */
 .jumbotron-sub {
   padding: 0 60px 40px 60px;
@@ -22,4 +22,7 @@ Last modified:
   border-bottom: 5px #f4f4f4 solid;
   height: 300px!important;
   background-repeat: no-repeat;
+}
+#accordion {
+  margin-bottom: 2.5rem !important;
 }
